@@ -14,3 +14,16 @@
 /opt/rclnet/examples/ExampleMessages/obj/Debug/net7.0/refint/ExampleMessages.dll
 /opt/rclnet/examples/ExampleMessages/obj/Debug/net7.0/ExampleMessages.pdb
 /opt/rclnet/examples/ExampleMessages/obj/Debug/net7.0/ref/ExampleMessages.dll
+/home/workspace/Alliance_ROSCS_MSG/bin/Debug/net7.0/ExampleMessages.deps.json
+/home/workspace/Alliance_ROSCS_MSG/bin/Debug/net7.0/ExampleMessages.dll
+/home/workspace/Alliance_ROSCS_MSG/bin/Debug/net7.0/ExampleMessages.pdb
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.csproj.AssemblyReference.cache
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.GeneratedMSBuildEditorConfig.editorconfig
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.AssemblyInfoInputs.cache
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.AssemblyInfo.cs
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.csproj.CoreCompileInputs.cache
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.sourcelink.json
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.dll
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/refint/ExampleMessages.dll
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ExampleMessages.pdb
+/home/workspace/Alliance_ROSCS_MSG/obj/Debug/net7.0/ref/ExampleMessages.dll

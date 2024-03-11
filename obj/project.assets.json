@@ -32,17 +32,20 @@
           }
         }
       },
-      "Rosidl.Runtime/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+      "Rosidl.Runtime/1.3.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.Toolkit.HighPerformance": "7.1.2"
         },
         "compile": {
-          "bin/placeholder/Rosidl.Runtime.dll": {}
+          "lib/net7.0/Rosidl.Runtime.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "bin/placeholder/Rosidl.Runtime.dll": {}
+          "lib/net7.0/Rosidl.Runtime.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -97,16 +100,28 @@
         "rcl.net.nuspec"
       ]
     },
-    "Rosidl.Runtime/1.0.0": {
-      "type": "project",
-      "path": "../../src/Rosidl.Runtime/Rosidl.Runtime.csproj",
-      "msbuildProject": "../../src/Rosidl.Runtime/Rosidl.Runtime.csproj"
+    "Rosidl.Runtime/1.3.0": {
+      "sha512": "xVurAPSJSHySAHmnnxSUNS3t3O23xkBYhC+mlkwPA8DWVPKsQW2w4d0ipYE255NIIVlDPQ6GIGmsr3rjnE9k+g==",
+      "type": "package",
+      "path": "rosidl.runtime/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net7.0/Rosidl.Runtime.dll",
+        "lib/net7.0/Rosidl.Runtime.xml",
+        "lib/net8.0/Rosidl.Runtime.dll",
+        "lib/net8.0/Rosidl.Runtime.xml",
+        "rosidl.runtime.1.3.0.nupkg.sha512",
+        "rosidl.runtime.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Rcl.NET >= 1.3.0",
-      "Rosidl.Runtime >= 1.0.0"
+      "Rosidl.Runtime >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -115,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/opt/rclnet/examples/ExampleMessages/ExampleMessages.csproj",
+      "projectUniqueName": "/home/workspace/Alliance_ROSCS_MSG/ExampleMessages.csproj",
       "projectName": "ExampleMessages",
-      "projectPath": "/opt/rclnet/examples/ExampleMessages/ExampleMessages.csproj",
+      "projectPath": "/home/workspace/Alliance_ROSCS_MSG/ExampleMessages.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/opt/rclnet/examples/ExampleMessages/obj/",
+      "outputPath": "/home/workspace/Alliance_ROSCS_MSG/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -133,11 +148,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/opt/rclnet/src/Rosidl.Runtime/Rosidl.Runtime.csproj": {
-              "projectPath": "/opt/rclnet/src/Rosidl.Runtime/Rosidl.Runtime.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -151,6 +162,10 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Rcl.NET": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "Rosidl.Runtime": {
             "target": "Package",
             "version": "[1.3.0, )"
           }
